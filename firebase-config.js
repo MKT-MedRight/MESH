@@ -1,30 +1,16 @@
-// ─────────────────────────────────────────────────────────────
 // Med Right Policy Hub — Firebase connection
-//
-// Paste the config from your Firebase project here:
-//   Firebase console → Project settings → General → Your apps
-//   → Web app → "SDK setup and configuration" → Config
-//
-// Leave apiKey empty and the hub simply runs offline in each
-// browser, exactly as before.
-// ─────────────────────────────────────────────────────────────
+// Generated 2026-08-19 from the Firebase console config.
+// Commit this file at the root of the repository, next to index.html.
 
 window.MRHUB_FIREBASE = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
-  // Only if you are using the Realtime Database (not Firestore):
+  apiKey: "AIzaSyBQVj_Na_CqUw8nNIviLYUizm-dWoo7lLA",
+  authDomain: "mesh-medright.firebaseapp.com",
+  projectId: "mesh-medright",
+  storageBucket: "mesh-medright.firebasestorage.app",
+  messagingSenderId: "496733769117",
+  appId: "1:496733769117:web:c2f0813b28d487a2f77374",
   databaseURL: ""
 };
 
-// "auto"      — Realtime Database when databaseURL is set, otherwise Firestore
-// "firestore" — force Cloud Firestore
-// "rtdb"      — force Realtime Database
 window.MRHUB_MODE = "auto";
-
-// Everything is stored under this one place, so several hubs can
-// share a project if you ever need that.
 window.MRHUB_ROOT = "medright-policy-hub";
